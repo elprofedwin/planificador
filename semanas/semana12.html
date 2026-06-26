@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Semana Lectiva 12 — Junio 2026 — IE N° 51006 Túpac Amaru" />
+  <title>Semana 12 | Planificador Institucional 2026</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/responsive.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar-institucional navbar" aria-label="Navegación principal">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="../index.html">
+        <div class="logo-placeholder" aria-hidden="true">IE<br>51006</div>
+        <div class="navbar-brand-text">
+          <strong>IE N° 51006 "Túpac Amaru"</strong>
+          Santiago, Cusco
+        </div>
+      </a>
+      <div class="d-flex align-items-center gap-2">
+        <span class="semana-badge">
+          <span class="badge-label">Semana</span>12
+        </span>
+        <select class="semana-select" id="semanaSelector" aria-label="Seleccionar semana">
+          <option value="semana01.html" >Semana 01</option><option value="semana02.html" >Semana 02</option><option value="semana03.html" >Semana 03</option><option value="semana04.html" >Semana 04</option><option value="semana05.html" >Semana 05</option><option value="semana06.html" >Semana 06</option><option value="semana07.html" >Semana 07</option><option value="semana08.html" >Semana 08</option><option value="semana09.html" >Semana 09</option><option value="semana10.html" >Semana 10</option><option value="semana11.html" >Semana 11</option><option value="semana12.html" selected>Semana 12</option>
+        </select>
+      </div>
+    </div>
+  </nav>
+
+  <!-- BREADCRUMB -->
+  <div class="breadcrumb-bar" aria-label="Ruta de navegación">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="../index.html"><i class="bi bi-house me-1"></i>Inicio</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Semana Lectiva 12</li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="header-institucional">
+    <div class="container">
+      <p class="nombre-ie">IE N° 51006 "Túpac Amaru" — Santiago, Cusco</p>
+      <h1>Planificador de Actividades Institucionales</h1>
+      <div class="header-meta">
+        <span class="meta-chip"><i class="bi bi-calendar3"></i> Junio 2026</span>
+        <span class="meta-chip"><i class="bi bi-bookmark"></i> Semana Lectiva 12</span>
+        <span class="meta-chip"><i class="bi bi-clock"></i> 08 – 12 de junio</span>
+      </div>
+      <div class="objetivo-banner" role="note">
+        <strong><i class="bi bi-bullseye me-1"></i>Objetivo semanal</strong>
+        Planificar, organizar y ejecutar de manera articulada actividades administrativas y pedagógicas, para fortalecer la participación de la comunidad educativa y el desarrollo de aprendizajes significativos en el marco del mes jubilar del Cusco.
+      </div>
+    </div>
+  </header>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <main id="contenido" class="main-content">
+    <div class="container">
+      <p class="section-label"><i class="bi bi-calendar-week me-1"></i>Actividades por día — Semana Lectiva 12</p>
+
+      <!-- GRID DE DÍAS -->
+      <div class="row grid-dias g-0 mb-4" role="list" aria-label="Días de la semana">
+        
+        <div class="col-dia" role="listitem">
+          <article class="card-dia" aria-label="Actividades del LUNES 08">
+            <div class="card-dia-header lunes">
+              <span class="actividad-count">5</span>
+              <p class="dia-nombre">LUNES</p>
+              <p class="dia-numero" data-dia-fecha="08">08</p>
+              <p class="dia-mes">Junio</p>
+            </div>
+            
+          <div class="accordion card-dia-body" id="acc_s12_d0" role="list">
+            
+              <div class="actividad-item">
+                <button class="actividad-btn" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#acc_s12_d0_act0"
+                        aria-expanded="false"
+                        aria-controls="acc_s12_d0_act0">
+                  <span class="actividad-hora">8:00 a.m.</span>
+                  <span class="actividad-texto">Momento cívico.</span>
+                  <i class="bi bi-chevron-down btn-expand-icon" aria-hidden="true"></i>
+                </button>
+                <div id="acc_s12_d0_act0" class="actividad-collapse collapse" data-bs-parent="#acc_s12_d0">
+                  <p class="mb-1">Momento cívico.</p>
+                  <div class="actividad-responsable"><i class="bi bi-person-fill"></i> Prof. DELGADO FERNÁNDEZ, Julio — 3ro D, Secundaria</div>
+                </div>
+              </div>
+              <div class="actividad-item">
+                <button class="actividad-btn" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#acc_s12_d0_act1"
+                        aria-expanded="false"
+                        aria-controls="acc_s12_d0_act1">
+                  <span class="actividad-hora">8:30 a.m.</span>
+                  <span class="actividad-texto">Recepción de sesiones de aprendizaje semanales en formato físico para ...</span>
+                  <i class="bi bi-chevron-down btn-expand-icon" aria-hidden="true"></i>
+                </button>
+                <div id="acc_s12_d0_act1" class="actividad-collapse collapse" data-bs-parent="#acc_s12_d0">
+                  <p class="mb-1">Recepción de sesiones de aprendizaje semanales en formato físico para su visación.</p>
+                  
+                </div>
+              </div>
+              <div class="actividad-item">
+                <button class="actividad-btn" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#acc_s12_d0_act2"
+                        aria-expanded="false"
+                        aria-controls="acc_s12_d0_act2">
+                  <span class="actividad-hora">9:00 a.m.</span>
+                  <span class="actividad-texto">Reunión de coordinación del Equipo Directivo.</span>
+                  <i class="bi bi-chevron-down btn-expand-icon" aria-hidden="true"></i>
+                </button>
+                <div id="acc_s12_d0_act2" class="actividad-collapse collapse" data-bs-parent="#acc_s12_d0">
+                  <p class="mb-1">Reunión de coordinación del Equipo Directivo.</p>
+                  <div class="actividad-responsable"><i class="bi bi-person-fill"></i> Equipo Directivo</div>
+                </div>
+              </div>
+              <div class="actividad-item">
+                <button class="actividad-btn" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#acc_s12_d0_act3"
+                        aria-expanded="false"
+                        aria-controls="acc_s12_d0_act3">
+                  <span class="actividad-hora">12:50 a.m.</span>
+                  <span class="actividad-texto">Momento cívico.</span>
+                  <i class="bi bi-chevron-down btn-expand-icon" aria-hidden="true"></i>
+                </button>
+                <div id="acc_s12_d0_act3" class="actividad-collapse collapse" data-bs-parent="#acc_s12_d0">
+                  <p class="mb-1">Momento cívico.</p>
+                  <div class="actividad-responsable"><i class="bi bi-person-fill"></i> Prof. DAZA VALDIVIA, Gonzalo — 1ro D, Secundaria</div>
+                </div>
+              </div>
+              <div class="actividad-item">
+                <div class="actividad-btn no-accordion">
+                  <span class="actividad-hora">1:00 p.m.</span>
+                  <span class="actividad-texto">Recepción de sesiones de aprendizaje semanal en formato físico para su visación.</span>
+                </div>
+              </div>
+          </div>
+          </article>
+        </div>
+        <div class="col-dia" role="listitem">
+          <article class="card-dia" aria-label="Actividades del MARTES 09">
+            <div class="card-dia-header martes">
+              <span class="actividad-count">2</span>
+              <p class="dia-nombre">MARTES</p>
+              <p class="dia-numero" data-dia-fecha="09">09</p>
+              <p class="dia-mes">Junio</p>
+            </div>
+            
+          <div class="accordion card-dia-body" id="acc_s12_d1" role="list">
+            
+              <div class="actividad-item">
+                <button class="actividad-btn" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#acc_s12_d1_act0"
+                        aria-expanded="false"
+                        aria-controls="acc_s12_d1_act0">
+                  <span class="actividad-hora">8:00 a.m.</span>
+                  <span class="actividad-texto">Recepción de sesiones de aprendizaje semanales en formato físico para ...</span>
+                  <i class="bi bi-chevron-down btn-expand-icon" aria-hidden="true"></i>
+                </button>
+                <div id="acc_s12_d1_act0" class="actividad-collapse collapse" data-bs-parent="#acc_s12_d1">
+                  <p class="mb-1">Recepción de sesiones de aprendizaje semanales en formato físico para su visación.</p>
+                  
+                </div>
+              </div>
+              <div class="actividad-item">
+                <button class="actividad-btn" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#acc_s12_d1_act1"
+                        aria-expanded="false"
+                        aria-controls="acc_s12_d1_act1">
+                  <span class="actividad-hora">1:00 p.m.</span>
+                  <span class="actividad-texto">Recepción de sesiones de aprendizaje semanales en formato físico para ...</span>
+                  <i class="bi bi-chevron-down btn-expand-icon" aria-hidden="true"></i>
+                </button>
+                <div id="acc_s12_d1_act1" class="actividad-collapse collapse" data-bs-parent="#acc_s12_d1">
+                  <p class="mb-1">Recepción de sesiones de aprendizaje semanales en formato físico para su visación.</p>
+                  
+                </div>
+              </div>
+          </div>
+          </article>
+        </div>
+        <div class="col-dia" role="listitem">
+          <article class="card-dia" aria-label="Actividades del MIÉRCOLES 10">
+            <div class="card-dia-header miercoles">
+              <span class="actividad-count">4</span>
+              <p class="dia-nombre">MIÉRCOLES</p>
+              <p class="dia-numero" data-dia-fecha="10">10</p>
+              <p class="dia-mes">Junio</p>
+            </div>
+            
+          <div class="accordion card-dia-body" id="acc_s12_d2" role="list">
+            
+              <div class="actividad-item">
+                <button class="actividad-btn" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#acc_s12_d2_act0"
+                        aria-expanded="false"
+                        aria-controls="acc_s12_d2_act0">
+                  <span class="actividad-hora">8:00 a.m.</span>
+                  <span class="actividad-texto">Recepción de sesiones de aprendizaje semanales en formato físico para ...</span>
+                  <i class="bi bi-chevron-down btn-expand-icon" aria-hidden="true"></i>
+                </button>
+                <div id="acc_s12_d2_act0" class="actividad-collapse collapse" data-bs-parent="#acc_s12_d2">
+                  <p class="mb-1">Recepción de sesiones de aprendizaje semanales en formato físico para su visación.</p>
+                  
+                </div>
+              </div>
+              <div class="actividad-item">
+                <button class="actividad-btn" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#acc_s12_d2_act1"
+                        aria-expanded="false"
+                        aria-controls="acc_s12_d2_act1">
+                  <span class="actividad-hora">8:00 a.m.</span>
+                  <span class="actividad-texto">Participación de la escolta de estudiantes de la I.E. en el izamiento ...</span>
+                  <i class="bi bi-chevron-down btn-expand-icon" aria-hidden="true"></i>
+                </button>
+                <div id="acc_s12_d2_act1" class="actividad-collapse collapse" data-bs-parent="#acc_s12_d2">
+                  <p class="mb-1">Participación de la escolta de estudiantes de la I.E. en el izamiento de la Plaza de Santiago.</p>
+                  <div class="actividad-responsable"><i class="bi bi-person-fill"></i> Escolta I.E.</div>
+                </div>
+              </div>
+              <div class="actividad-item">
+                <button class="actividad-btn" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#acc_s12_d2_act2"
+                        aria-expanded="false"
+                        aria-controls="acc_s12_d2_act2">
+                  <span class="actividad-hora">1:00 p.m.</span>
+                  <span class="actividad-texto">Recepción de sesiones de aprendizaje semanales en formato físico para ...</span>
+                  <i class="bi bi-chevron-down btn-expand-icon" aria-hidden="true"></i>
+                </button>
+                <div id="acc_s12_d2_act2" class="actividad-collapse collapse" data-bs-parent="#acc_s12_d2">
+                  <p class="mb-1">Recepción de sesiones de aprendizaje semanales en formato físico para su visación.</p>
+                  
+                </div>
+              </div>
+              <div class="actividad-item">
+                <button class="actividad-btn" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#acc_s12_d2_act3"
+                        aria-expanded="false"
+                        aria-controls="acc_s12_d2_act3">
+                  <span class="actividad-hora">7:30 p.m.</span>
+                  <span class="actividad-texto">Reunión virtual de trabajo colegiado institucional. El link y agenda s...</span>
+                  <i class="bi bi-chevron-down btn-expand-icon" aria-hidden="true"></i>
+                </button>
+                <div id="acc_s12_d2_act3" class="actividad-collapse collapse" data-bs-parent="#acc_s12_d2">
+                  <p class="mb-1">Reunión virtual de trabajo colegiado institucional. El link y agenda se compartirá oportunamente previo a la reunión.</p>
+                  <div class="actividad-responsable"><i class="bi bi-person-fill"></i> Equipo Directivo</div>
+                </div>
+              </div>
+          </div>
+          </article>
+        </div>
+        <div class="col-dia" role="listitem">
+          <article class="card-dia" aria-label="Actividades del JUEVES 11">
+            <div class="card-dia-header jueves">
+              <span class="actividad-count">4</span>
+              <p class="dia-nombre">JUEVES</p>
+              <p class="dia-numero" data-dia-fecha="11">11</p>
+              <p class="dia-mes">Junio</p>
+            </div>
+            
+          <div class="accordion card-dia-body" id="acc_s12_d3" role="list">
+            
+              <div class="actividad-item">
+                <button class="actividad-btn" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#acc_s12_d3_act0"
+                        aria-expanded="false"
+                        aria-controls="acc_s12_d3_act0">
+                  <span class="actividad-hora">8:00 a.m.</span>
+                  <span class="actividad-texto">10 minutos de actividad física por una vida activa y saludable.</span>
+                  <i class="bi bi-chevron-down btn-expand-icon" aria-hidden="true"></i>
+                </button>
+                <div id="acc_s12_d3_act0" class="actividad-collapse collapse" data-bs-parent="#acc_s12_d3">
+                  <p class="mb-1">10 minutos de actividad física por una vida activa y saludable.</p>
+                  <div class="actividad-responsable"><i class="bi bi-person-fill"></i> Prof. MAROCHO ORÉ, Gladys — 6to E, Nivel Primaria</div>
+                </div>
+              </div>
+              <div class="actividad-item">
+                <button class="actividad-btn" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#acc_s12_d3_act1"
+                        aria-expanded="false"
+                        aria-controls="acc_s12_d3_act1">
+                  <span class="actividad-hora">8:30 a.m.</span>
+                  <span class="actividad-texto">Recepción de sesiones de aprendizaje semanales en formato físico para ...</span>
+                  <i class="bi bi-chevron-down btn-expand-icon" aria-hidden="true"></i>
+                </button>
+                <div id="acc_s12_d3_act1" class="actividad-collapse collapse" data-bs-parent="#acc_s12_d3">
+                  <p class="mb-1">Recepción de sesiones de aprendizaje semanales en formato físico para su visación.</p>
+                  
+                </div>
+              </div>
+              <div class="actividad-item">
+                <button class="actividad-btn" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#acc_s12_d3_act2"
+                        aria-expanded="false"
+                        aria-controls="acc_s12_d3_act2">
+                  <span class="actividad-hora">12:50 p.m.</span>
+                  <span class="actividad-texto">10 minutos de actividad física por una vida activa y saludable.</span>
+                  <i class="bi bi-chevron-down btn-expand-icon" aria-hidden="true"></i>
+                </button>
+                <div id="acc_s12_d3_act2" class="actividad-collapse collapse" data-bs-parent="#acc_s12_d3">
+                  <p class="mb-1">10 minutos de actividad física por una vida activa y saludable.</p>
+                  <div class="actividad-responsable"><i class="bi bi-person-fill"></i> Prof. VERA FARFÁN, Ana María — 6to C, Nivel Primaria</div>
+                </div>
+              </div>
+              <div class="actividad-item">
+                <button class="actividad-btn" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#acc_s12_d3_act3"
+                        aria-expanded="false"
+                        aria-controls="acc_s12_d3_act3">
+                  <span class="actividad-hora">8:30 a.m.</span>
+                  <span class="actividad-texto">Recepción de sesiones de aprendizaje semanales en formato físico para ...</span>
+                  <i class="bi bi-chevron-down btn-expand-icon" aria-hidden="true"></i>
+                </button>
+                <div id="acc_s12_d3_act3" class="actividad-collapse collapse" data-bs-parent="#acc_s12_d3">
+                  <p class="mb-1">Recepción de sesiones de aprendizaje semanales en formato físico para su visación.</p>
+                  
+                </div>
+              </div>
+          </div>
+          </article>
+        </div>
+        <div class="col-dia" role="listitem">
+          <article class="card-dia" aria-label="Actividades del VIERNES 12">
+            <div class="card-dia-header viernes">
+              <span class="actividad-count">3</span>
+              <p class="dia-nombre">VIERNES</p>
+              <p class="dia-numero" data-dia-fecha="12">12</p>
+              <p class="dia-mes">Junio</p>
+            </div>
+            
+          <div class="accordion card-dia-body" id="acc_s12_d4" role="list">
+            
+              <div class="actividad-item">
+                <button class="actividad-btn" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#acc_s12_d4_act0"
+                        aria-expanded="false"
+                        aria-controls="acc_s12_d4_act0">
+                  <span class="actividad-hora">8:00 a.m.</span>
+                  <span class="actividad-texto">Recepción de sesiones de aprendizaje semanales en formato físico para ...</span>
+                  <i class="bi bi-chevron-down btn-expand-icon" aria-hidden="true"></i>
+                </button>
+                <div id="acc_s12_d4_act0" class="actividad-collapse collapse" data-bs-parent="#acc_s12_d4">
+                  <p class="mb-1">Recepción de sesiones de aprendizaje semanales en formato físico para su visación.</p>
+                  
+                </div>
+              </div>
+              <div class="actividad-item">
+                <button class="actividad-btn" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#acc_s12_d4_act1"
+                        aria-expanded="false"
+                        aria-controls="acc_s12_d4_act1">
+                  <span class="actividad-hora">11:00 a.m.</span>
+                  <span class="actividad-texto">Reunión de coordinación del Equipo Directivo.</span>
+                  <i class="bi bi-chevron-down btn-expand-icon" aria-hidden="true"></i>
+                </button>
+                <div id="acc_s12_d4_act1" class="actividad-collapse collapse" data-bs-parent="#acc_s12_d4">
+                  <p class="mb-1">Reunión de coordinación del Equipo Directivo.</p>
+                  <div class="actividad-responsable"><i class="bi bi-person-fill"></i> Equipo Directivo</div>
+                </div>
+              </div>
+              <div class="actividad-item">
+                <button class="actividad-btn" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#acc_s12_d4_act2"
+                        aria-expanded="false"
+                        aria-controls="acc_s12_d4_act2">
+                  <span class="actividad-hora">1:00 p.m.</span>
+                  <span class="actividad-texto">Recepción de sesiones de aprendizaje semanales en formato físico para ...</span>
+                  <i class="bi bi-chevron-down btn-expand-icon" aria-hidden="true"></i>
+                </button>
+                <div id="acc_s12_d4_act2" class="actividad-collapse collapse" data-bs-parent="#acc_s12_d4">
+                  <p class="mb-1">Recepción de sesiones de aprendizaje semanales en formato físico para su visación.</p>
+                  
+                </div>
+              </div>
+          </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- RECOMENDACIONES -->
+      
+      <section class="card-recomendaciones" aria-labelledby="rec-title">
+        <div class="rec-header">
+          <i class="bi bi-lightbulb-fill fs-5" aria-hidden="true"></i>
+          <span id="rec-title">Recomendaciones de la semana</span>
+        </div>
+        <div class="rec-body">
+          <ul class="rec-items">
+            <li>Sensibilizar en la práctica de la puntualidad realizando las actividades a su debido tiempo.</li><li>Recomendar el uso de sombreros de ala ancha, ropa abrigadora y lavado de manos para evitar el contagio de enfermedades.</li><li>En el mes de junio motivar el uso de una prenda típica del Cusco para desarrollar la identidad cultural.</li><li>Otorgar todas las facilidades a los estudiantes del nivel Primario y Secundario para realizar los ensayos de las danzas que presentarán en la Plaza de Armas del Cusco por el mes jubilar de nuestra Tierra.</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- NAVEGACIÓN ENTRE SEMANAS -->
+  <nav class="nav-semanas" aria-label="Navegación entre semanas">
+    <div class="container d-flex justify-content-between align-items-center flex-wrap gap-2">
+      <a href="semana11.html" class="btn-nav-semana " aria-label="Semana anterior">
+        <i class="bi bi-arrow-left"></i> Semana anterior
+      </a>
+      <a href="../index.html" class="btn-nav-semana">
+        <i class="bi bi-grid-3x3-gap"></i> Todas las semanas
+      </a>
+      <a href="#" class="btn-nav-semana disabled" aria-label="Semana siguiente">
+        Semana siguiente <i class="bi bi-arrow-right"></i>
+      </a>
+    </div>
+  </nav>
+
+  <!-- FOOTER -->
+  <footer class="footer-institucional" role="contentinfo">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-2 mb-md-0">
+          <p class="footer-nombre mb-0">IE N° 51006 "Túpac Amaru" — Santiago, Cusco</p>
+          <p class="mb-0 mt-1">Planificador de Actividades Institucionales 2026</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <p class="mb-0"><i class="bi bi-geo-alt-fill me-1"></i>Santiago, Cusco, Perú</p>
+          <p class="mb-0 mt-1">&copy; <span class="footer-year"></span> IE N° 51006. Todos los derechos reservados.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../js/app.js"></script>
+</body>
+</html>
