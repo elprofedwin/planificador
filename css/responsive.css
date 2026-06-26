@@ -1,0 +1,158 @@
+/* ============================================================
+   PLANIFICADOR DE ACTIVIDADES INSTITUCIONALES — IE 51006
+   responsive.css  |  Adaptación a pantallas
+   ============================================================ */
+
+/* ── Desktop: 5 columnas ────────────────────────────────────── */
+@media (min-width: 1200px) {
+  .grid-dias .col-dia {
+    width: 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+
+  .header-institucional h1 {
+    font-size: 1.75rem;
+  }
+}
+
+/* ── Laptop / Desktop mediano ────────────────────────────────── */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .grid-dias .col-dia {
+    width: 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}
+
+/* ── Tablet: 2-3 columnas ────────────────────────────────────── */
+@media (min-width: 576px) and (max-width: 991px) {
+  .grid-dias .col-dia {
+    width: 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: .5rem;
+  }
+
+  .header-institucional h1 {
+    font-size: 1.35rem;
+  }
+
+  .header-meta {
+    gap: .75rem;
+  }
+
+  /* En tablet, el quinto día ocupa ancho completo */
+  .grid-dias .col-dia:nth-child(5) {
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .semana-select { display: none; }
+}
+
+/* ── Móvil: 1 columna (apiladas) ─────────────────────────────── */
+@media (max-width: 575px) {
+  .grid-dias .col-dia {
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: .35rem .5rem;
+  }
+
+  .header-institucional {
+    padding: 1.5rem 0 1.25rem;
+  }
+
+  .header-institucional h1 {
+    font-size: 1.15rem;
+  }
+
+  .header-meta {
+    gap: .5rem;
+  }
+
+  .meta-chip {
+    font-size: .72rem;
+    padding: .25rem .65rem;
+  }
+
+  .objetivo-banner {
+    font-size: .82rem;
+  }
+
+  /* Navbar mobile */
+  .navbar-brand-text strong {
+    font-size: .88rem;
+  }
+
+  .semana-badge {
+    font-size: .72rem;
+    padding: .25rem .6rem;
+  }
+
+  .semana-select {
+    display: none;
+  }
+
+  /* Botones táctiles grandes */
+  .actividad-btn {
+    padding: .85rem 1rem;
+    min-height: 48px;
+  }
+
+  .btn-nav-semana {
+    padding: .65rem 1rem;
+    font-size: .82rem;
+  }
+
+  .card-dia-header .dia-numero {
+    font-size: 1.75rem;
+  }
+}
+
+/* ── Touch target mínimo para accesibilidad ──────────────────── */
+@media (hover: none) and (pointer: coarse) {
+  .actividad-btn {
+    min-height: 48px;
+  }
+
+  .btn-nav-semana {
+    min-height: 44px;
+  }
+}
+
+/* ── Reduced motion ──────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  .card-dia,
+  .actividad-btn,
+  .btn-nav-semana,
+  .btn-expand-icon {
+    transition: none;
+  }
+}
+
+/* ── Print ───────────────────────────────────────────────────── */
+@media print {
+  .navbar-institucional,
+  .breadcrumb-bar,
+  .nav-semanas,
+  .footer-institucional { display: none; }
+
+  .header-institucional {
+    background: #002060 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .card-dia {
+    box-shadow: none;
+    border: 1px solid #ccc;
+    break-inside: avoid;
+  }
+
+  .actividad-collapse {
+    display: block !important;
+  }
+}
